@@ -1,0 +1,45 @@
+$base-color: #a9a9a9;
+
+.tableClass {
+  border: 1px solid $base-color;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 1rem;
+  width: 100%;
+
+  th,
+  td,
+  tr {
+    padding: 1rem;
+    border: 1px solid $base-color;
+  }
+
+  .tableRow {
+    &:hover {
+      background-color: #ebebeb;
+    }
+  }
+
+  .tableHeader {
+    background-color: #f0f0f0;
+    border: 1px solid $base-color;
+    cursor: pointer;
+  }
+
+  .headingBackground {
+    background-color: #f0f0f0;
+  }
+
+  .background-0 {
+    background-color: #ceecf6;
+  }
+
+  .background-1 {
+    background-color: #7addf0;
+  }
+
+  .background-2 {
+    background-color: #bee4fd;
+  }
+}
